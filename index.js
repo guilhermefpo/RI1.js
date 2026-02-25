@@ -28,18 +28,18 @@ function Personagem(
   };
 }
 
-const batman = new Personagem(
-  "Bruce Wane",
-  "Batman",
-  "Inteligencia",
+const capitao = new Personagem(
+  "Steve Rogers",
+  "Capitão América",
+  "Escudo",
   "Combate corpo a corpo",
   85,
   80,
   90,
 );
-const ravena = new Personagem(
-  "Rachel Roth",
-  "Ravena",
+const thanos = new Personagem(
+  "Thanos",
+  "Thanos",
   "Manipulação absoluta de energia e almas",
   "Magia",
   75,
@@ -47,27 +47,19 @@ const ravena = new Personagem(
   95,
 );
 
-const zatanna = new Personagem(
-  "Zatanna Zatara",
-  "Zatanna",
-  "Manipulação da realidade",
-  "Magia",
-  69,
-  95,
-  80,
-);
+const thor = new Personagem("Thor", "Thor", "Martelo", "Raio", 69, 95, 80);
 
-const superman = new Personagem(
-  "Clark Kent",
-  "Superman",
-  "Super-Força",
+const homemdeFerro = new Personagem(
+  "Tony Stark",
+  "Homem de Ferro",
+  "Armadura",
   "Força",
   98,
   99,
   100,
 );
 
-const personagens = [batman, ravena, superman, zatanna];
+const personagens = [capitao, thanos, thor, homemdeFerro];
 
 personagens.forEach((personagens) => {
   console.log(personagens.descricao());
